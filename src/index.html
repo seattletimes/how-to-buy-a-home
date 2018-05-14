@@ -8,13 +8,30 @@
     <%= t.include("partials/_nav.html") %>
     <%= t.include("partials/_ad.html", {type: "banner"}) %>
 
-    <header>
+    <header class="constrained">
+      <h1><%= archieml.story.headline %></h1>
+      <h3>By <%= archieml.story.author.name %></h3>
+      <h4><%= archieml.story.author.description %></h4>
     </header>
 
     <main>
+      <% archieml.story.sections.forEach((section, i) => { %>
+        <section class="constrained" data-side="<%= i % 2 ? 'right' : 'left' %>">
+        <% if (section.title) { %>
+          <h2><%= section.title %></h2>
+        <% } %>
+        <% section.subsections.forEach((subsection) => { %>
+          <% if (subsection.title) { %>
+            <h3><%= subsection.title %></h3>
+          <% } %>
+          <%= t.renderMarkdown(subsection.content) %>
+        <% }); %>
+        </section>
+      <% }); %>
     </main>
 
     <footer>
+      <%= archieml.story.footer %>
     </footer>
 
     <%= t.include("partials/_navBottom.html") %>

@@ -1,1 +1,43 @@
 @import "seattletimes";
+
+@base-padding: 16px;
+.constrained {
+  margin: 0 auto;
+  max-width: 700px;
+  padding: @base-padding;
+}
+
+section {
+  position: relative;
+
+  @section-offset: 100px;
+  &:nth-child(odd) {
+    left: @section-offset;
+    &::before { left: -@section-offset / 2; }
+  }
+  &:nth-child(even) {
+    right: @section-offset;
+    &::before {right: -@section-offset / 2; }
+  }
+
+  // vertical path
+  &::before {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 10px;
+    background: @df-light-gray;
+    content: "";
+  }
+
+  // horizontal path (under section)
+  &::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 10px;
+    background: @df-light-gray;
+    content: "";
+  }
+}
