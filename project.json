@@ -1,0 +1,20 @@
+{
+  "s3": {
+    "stage": {
+      "bucket": "projects-staging.seattletimes.com",
+      "path": "past-yak"
+    },
+    "live": {
+      "bucket": "projects.seattletimes.com",
+      "path": ""
+    }
+  },
+  "title": "How to buy a home in the Seattle area: a survival guide",
+  "description": "TK",
+  "url": "",
+  "image": "assets/social.jpg",
+  "sheets": [],
+  "standout": false,
+  "embedded": true,
+  "production": false
+}
