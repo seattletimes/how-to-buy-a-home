@@ -16,9 +16,23 @@
       </h3>
     </header>
 
+    <%
+      var asidePattern = /~ASIDE~(.*)~ASIDE~/g;
+      var injectAsides = function(markup) {
+        return markup.replace(asidePattern, (match, slug) => {
+          var data = json.asides[slug];
+          if (!data) return "";
+          return `<aside>
+            <img src="assets/${data.image}">
+            <p>${data.text || slug}</p>
+          </aside>`;
+        });
+      };
+    %>
+
     <main>
       <% archieml.story.sections.forEach((section, i) => { %>
-        <section class="constrained" data-side="<%= i % 2 ? 'right' : 'left' %>">
+        <section class="constrained">
         <% if (section.title) { %>
           <h2><%= section.title %></h2>
         <% } %>
@@ -26,7 +40,7 @@
           <% if (subsection.title) { %>
             <h3><%= subsection.title %></h3>
           <% } %>
-          <%= t.renderMarkdown(subsection.content) %>
+          <%= t.renderMarkdown(injectAsides(subsection.content)) %>
         <% }); %>
         </section>
       <% }); %>

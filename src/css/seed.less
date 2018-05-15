@@ -1,9 +1,12 @@
 @import "seattletimes";
 
 @base-padding: 16px;
+@section-offset: 200px;
+@graphic-width: 100px;
+
 .constrained {
   margin: 0 auto;
-  max-width: 800px;
+  max-width: 900px;
   padding: @base-padding;
 }
 
@@ -20,7 +23,7 @@ h2 {
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 25px;
 }
 
 small {
@@ -33,18 +36,59 @@ em {
   font-size: 110%;
 }
 
-
 section {
   position: relative;
 
-  @section-offset: 100px;
   &:nth-child(odd) {
-    left: @section-offset;
-    &::before { left: -@section-offset / 2; }
+    &  > h3, & > p, li { margin-left: @section-offset; }
+    &::before { left: @graphic-width / 2; }
+    aside { float: left;  }
   }
   &:nth-child(even) {
-    right: @section-offset;
-    &::before {right: -@section-offset / 2; }
+    & > h3, & > p, li { margin-right: @section-offset; }
+    &::before {right: @graphic-width / 2; }
+    aside { float: right;  }
+  }
+
+  @media @mobile {
+    &:nth-child(odd) > h3, &:nth-child(odd) > p, &:nth-child(odd) li,
+    &:nth-child(even) > h3, &:nth-child(even) > p, &:nth-child(even) li {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  aside {
+    clear: both;
+    position: relative;
+    margin: 8px auto;
+    width: @graphic-width;
+    font-family: @df-sans;
+    img {
+      display:block;
+      margin: 0 auto 4px;
+      width: @graphic-width;
+      height: @graphic-width;
+      border: 1px solid @df-light-gray;
+      border-radius: @graphic-width / 2;
+      background-color: white;
+    }
+    p {
+      margin: 0;
+      border: 1px solid @df-light-gray;
+      border-radius: 4px;
+      padding: 4px;
+      background-color: white;
+      font-size: 14px;
+    }
+
+    @media @mobile {
+      :nth-child(even) &, :nth-child(odd) & {
+        float: none;
+        margin: 0 auto;
+        width: 50%;
+      }
+    }
   }
 
   // vertical path
@@ -52,19 +96,22 @@ section {
     position: absolute;
     top: 0;
     bottom: 0;
-    width: 10px;
-    background: @df-light-gray;
+    width: 2 * @base-padding;
+    background: url(assets/vPath.svg);
     content: "";
+
+    @media @mobile {
+      display: none;
+    }
   }
 
   // horizontal path (under section)
   &::after {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 10px;
-    background: @df-light-gray;
+    clear: both;
+    display: block;
+    width: 100%;
+    height: 2 * @base-padding;
+    background:url(assets/hPath.svg);
     content: "";
   }
 }

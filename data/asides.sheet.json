@@ -1,0 +1,129 @@
+{
+  "prices-rising": {
+    "image": "cash-pile.svg",
+    "section": "prepare for",
+    "icon": "money increase",
+    "text": "Home prices are rising faster here than anywhere else in the country."
+  },
+  "down-doubled": {
+    "image": "cash-pile.svg",
+    "icon": "nest egg",
+    "text": "The median down payment on a house has doubled to $100,000 in five years."
+  },
+  "undefined": {
+    "section": "Sources:",
+    "icon": "Zillow, HERE Technologies"
+  },
+  "full-time-job": {
+    "image": "cash-pile.svg",
+    "icon": "pill bottle",
+    "text": "Many buyers described the home-hunting process as a stressful full-time job."
+  },
+  "outbid": {
+    "image": "cash-pile.svg",
+    "icon": "leaves changing",
+    "text": "The average buyer is outbid 3-5 times and pursues a house for 6-12 months."
+  },
+  "save-up": {
+    "image": "cash-pile.svg",
+    "section": "saving up",
+    "icon": "person jumping over hurdle",
+    "text": "Before even searching for homes, you'll need to save up a lot of money."
+  },
+  "squirrel": {
+    "image": "cash-pile.svg",
+    "icon": "Squirrel 4 acorns",
+    "text": "To make real progress, buyers must squirrel away an amount equal to one-fourth of the local median income."
+  },
+  "acorn": {
+    "image": "cash-pile.svg",
+    "icon": "gift acorn",
+    "text": "Even people in their 30s and 40s are stuck asking mom and dad for gifts."
+  },
+  "stamp": {
+    "image": "cash-pile.svg",
+    "icon": "pre-approval stamp “We think this person can buy a home”",
+    "text": "A mortgage pre-approval is your basic first qualification but not a loan guarantee."
+  },
+  "all-cash": {
+    "image": "cash-pile.svg",
+    "icon": "cash/ mortgage buyer",
+    "text": "About 1 in 4 homes locally are bought entirely with cash, and good luck competing with them."
+  },
+  "checklist": {
+    "image": "cash-pile.svg",
+    "icon": "pre-written check list - Guaranteed you can buy a home Solid gold buyer!",
+    "text": "To really be competitive, you'll need to get \"pre-underwritten\" for a mortgage at the start."
+  },
+  "local-lenders": {
+    "image": "cash-pile.svg",
+    "icon": "photos of lenders",
+    "text": "Local lenders known in the real estate community can give you a leg-up to skeptical sellers' brokers."
+  },
+  "cake": {
+    "image": "cash-pile.svg",
+    "icon": "cake slice",
+    "text": "One local lender helped his client get a house by taking calls during his wife’s birthday party."
+  },
+  "broker": {
+    "image": "cash-pile.svg",
+    "section": "picking a broker",
+    "icon": "person with a sash that says neighborhood expert",
+    "text": "Most brokers specialize in one neighborhood. "
+  },
+  "over-asking": {
+    "image": "cash-pile.svg",
+    "icon": "suggested price house",
+    "text": "A list price is now just a suggestion: two-thirds of homes go for over asking."
+  },
+  "avoid-love": {
+    "image": "cash-pile.svg",
+    "icon": "ALERT! Do not fall in love"
+  },
+  "one-week": {
+    "image": "cash-pile.svg",
+    "icon": "ALERT! You may have less than one week to buy a house!"
+  },
+  "stinker": {
+    "image": "cash-pile.svg",
+    "section": "Look for ‘stinkers”",
+    "icon": "house with flies",
+    "text": "Homes that don't sell quickly attract a \"stink\" in the market, but they might be hidden opportunities."
+  },
+  "off-market": {
+    "image": "cash-pile.svg",
+    "section": "Off-market sales",
+    "icon": "pile of letters",
+    "text": "Want a real deal? You'll have to know someone who wants to sell without the hassle of listing their home."
+  },
+  "duplicate": {
+    "image": "cash-pile.svg",
+    "section": "Duplicate houses",
+    "icon": "two houses",
+    "text": "When two similar homes hit the market in the same neighborhood, one is likely to be less sought-after."
+  },
+  "appraisal-contingency": {
+    "image": "cash-pile.svg",
+    "section": "Appraisal contingency",
+    "icon": "handcuff handshake",
+    "text": "Appraisal comes in low? You'll have to fork over more cash."
+  },
+  "inspection": {
+    "image": "cash-pile.svg",
+    "section": "Inspection contingency",
+    "icon": "check under a house",
+    "text": "Find something wrong with the house after bidding? That's your problem."
+  },
+  "boxes": {
+    "image": "cash-pile.svg",
+    "section": "Rent backs",
+    "icon": "delayed baggage/ boxes",
+    "text": "Your home will be available in a few months - once the old owners are able to find a new place."
+  },
+  "foam-finger": {
+    "image": "cash-pile.svg",
+    "section": "Ask to be #2",
+    "icon": "foam finger",
+    "text": "Second place in a bidding war means you're not out of the running yet.\n"
+  }
+}
