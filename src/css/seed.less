@@ -14,6 +14,10 @@ h1 {
   font-size: 60px;
   font-family: @df-sans;
   text-shadow: 4px 4px 8px fade(black, 10%);
+
+  @media @mobile {
+    font-size: 47px;
+  }
 }
 
 h2 {
@@ -36,23 +40,27 @@ em {
   font-size: 110%;
 }
 
+ul {
+  padding-left: @base-padding;
+}
+
 section {
   position: relative;
+  &.constrained { padding-bottom: 0; }
 
   &:nth-child(odd) {
-    &  > h3, & > p, li { margin-left: @section-offset; }
     &::before { left: @graphic-width / 2; }
+    & > :not(aside) { margin-left: @section-offset; }
     aside { float: left;  }
   }
   &:nth-child(even) {
-    & > h3, & > p, li { margin-right: @section-offset; }
     &::before {right: @graphic-width / 2; }
+    & > :not(aside) { margin-right: @section-offset; }
     aside { float: right;  }
   }
 
   @media @mobile {
-    &:nth-child(odd) > h3, &:nth-child(odd) > p, &:nth-child(odd) li,
-    &:nth-child(even) > h3, &:nth-child(even) > p, &:nth-child(even) li {
+    &:nth-child(odd) >:not(aside), &:nth-child(even) > :not(aside) {
       margin-left: auto;
       margin-right: auto;
     }
@@ -95,7 +103,7 @@ section {
   &::before {
     position: absolute;
     top: 0;
-    bottom: 0;
+    bottom: @base-padding;
     width: 2 * @base-padding;
     background: url(assets/vPath.svg);
     content: "";
@@ -109,9 +117,13 @@ section {
   &::after {
     clear: both;
     display: block;
-    width: 100%;
+    margin: 0 @graphic-width / 2;
     height: 2 * @base-padding;
-    background:url(assets/hPath.svg);
+    background: url(assets/hPath.svg) repeat-x;
     content: "";
+
+    @media @mobile {
+      margin: 0;
+    }
   }
 }
