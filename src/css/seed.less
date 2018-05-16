@@ -132,12 +132,18 @@ section {
   }
 }
 
-:nth-child(odd) .cash-pile, :nth-child(even) .cash-pile {
+.cash-pile {
   position: absolute;
-  left: 0;
   bottom: -2 * @base-padding;
-  margin-left: @base-padding;
   width: @graphic-width;
+  section:nth-child(odd) & {
+    left: 0;
+    margin-left: @base-padding;
+  }
+  section:nth-child(even) & {
+    right: 0;
+    margin-right: @base-padding;
+  }
 }
 
 .stopwatch {

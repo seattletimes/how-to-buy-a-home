@@ -56,12 +56,18 @@ var onScroll = debounce(function() {
   var viewportHeight = window.innerHeight;
   $(".cash-pile").forEach((cash) => {
     var bounds = cash.getBoundingClientRect();
+
+    // If cash pile is off screen, do nothing
     if (bounds.bottom < 0 || bounds.top > viewportHeight) return;
-    console.log(cash);
-    var proportionScrolled = (viewportHeight - bounds.top) / viewportHeight;
+
+    // (distance from top of cash pile to top of screen) / (height of screen + height of cash pile)
+    // e.g. top of cash at bottom of screen --> 0 ; top of cash at top of screen --> 1
+    var proportionScrolled = (viewportHeight - bounds.top) / (viewportHeight + 100);
+
+    //  (width of horizontal road) - (padding left and right) - (width of cash pile)
+    // e.g. at 0, cash pile is placed in one corner; at horizontalMax it's placed in the other
     var horizontalMax = cash.parentNode.getBoundingClientRect().width - 2 * 16 - 100; // TK fix up
-    console.log(proportionScrolled * horizontalMax);
-    cash.style.left = `${proportionScrolled * horizontalMax}px`;
+    cash.style[cash.dataset.side] = `${proportionScrolled * horizontalMax}px`;
   });
 }, 15);
 
