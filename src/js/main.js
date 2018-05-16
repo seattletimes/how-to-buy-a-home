@@ -72,3 +72,4 @@ var onScroll = debounce(function() {
 }, 15);
 
 window.addEventListener("scroll", onScroll);
+onScroll();

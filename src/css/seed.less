@@ -56,17 +56,24 @@ section {
     &::before { left: @graphic-width / 2; }
     & > :not(aside) { margin-left: @section-offset; }
     aside { float: left;  }
+    .ad { float: right; margin-left: @base-padding; }
   }
   &:nth-child(even) {
     &::before {right: @graphic-width / 2; }
     & > :not(aside) { margin-right: @section-offset; }
     aside { float: right;  }
+    .ad { float: left; margin-right: @base-padding; }
   }
 
   @media @mobile {
-    &:nth-child(odd) >:not(aside), &:nth-child(even) > :not(aside) {
+    &:nth-child(odd) > :not(aside), &:nth-child(even) > :not(aside) {
       margin-left: auto;
       margin-right: auto;
+    }
+    &:nth-child(odd) aside, &:nth-child(odd) .ad,
+    &:nth-child(even) aside, &:nth-child(even) .ad {
+      float: none;
+      margin: 0 auto;
     }
   }
 
@@ -81,9 +88,9 @@ section {
       margin: 0 auto 4px;
       width: @graphic-width;
       height: @graphic-width;
-      border: 1px solid @df-light-gray;
-      border-radius: @graphic-width / 2;
-      background-color: white;
+      // border: 1px solid @df-light-gray;
+      // border-radius: @graphic-width / 2;
+      // background-color: white;
 
       transition: transform 0.1s ease-in;
 
@@ -95,16 +102,18 @@ section {
       margin: 0;
       border: 1px solid @df-light-gray;
       border-radius: 4px;
-      padding: 4px;
+      padding: 8px;
       background-color: white;
       font-size: 14px;
     }
 
     @media @mobile {
       :nth-child(even) &, :nth-child(odd) & {
-        float: none;
-        margin: 0 auto;
-        width: 50%;
+        width: 100%;
+        img {
+          width: auto;
+          height: auto;
+        }
       }
     }
   }

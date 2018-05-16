@@ -12,8 +12,6 @@ content: What does it really take to buy a home in the Seattle area? There are 
 
 ~ASIDE~prices-rising~ASIDE~
 
-~AD~
-
 But nowadays, to compete in this feverish market, buyers have to deal with so much more: Pay for damage the seller doesn’t disclose. Decide whether to buy a house just a couple days after it hits the market. Have a six-figure cash nest egg saved up for a down payment and nonrefundable earnest money.
 
 Will you let the old owners continue living in your new house for months after you buy it? Can you compete with a pool of buyers where 1 in 4 people are paying with all cash? Are you ready for heartbreak getting outbid on your dream home even when stretching to make your highest possible offer?
@@ -40,7 +38,11 @@ content: The first thing you need to do is have your finances lined up. The bigg
 
 Technically, there are programs that allow you to put as little as 3 percent down. But the market today is so competitive that sellers are looking for buyers to put as much down as possible, and people who don’t put much down aren’t winning bidding wars in competitive neighborhoods. The typical King County homebuyer is now putting 18 percent down (excluding cash buyers — we’ll get to them in a minute).
 
+~ASIDE~piggy~ASIDE~
+
 Here is the cold, hard math: The median down payment on all homes (single-family and condos) in King County just topped $100,000 for the first time, up from about $50,000 just five years ago, according to mortgage tracking company Attom Data Solutions.
+
+~ASIDE~median-down-graph~ASIDE~
 
 That’s an increase of $10,000 a year just for the down payment. Anyone who added less than that to their home-saving piggy bank in the last year is actually farther away from being able to afford the median-priced home than they were when they started saving.
 
@@ -101,6 +103,8 @@ Realtors are an extension of the “location, location, location” mantra in re
 
 Seattle-based Redfin, in particular, is a source of fascination for buyers because it generally offers lower commissions — as low as 1 to 1.5 percent of the purchase price, compared to traditional brokerages that usually charge 2.5 to 3 percent.
 
+~AD~
+
 But traditional brokerages derisively refer to Redfin as a “discount brokerage.” Fichthorn said they first tried touring homes with Redfin, using a feature on the company’s website where you can click a button to “schedule a tour” even if it’s not a Redfin-listed house. The Redfin employee would quickly respond and unlock the home for a tour but had no clue about the house’s details and couldn’t analyze whether the price was fair — she was just there in hopes of signing the buyers up to be assigned to one of their agents.
 
 They wound up going with a realtor from a traditional brokerage — though they found him through a similar tool on Zillow, which lets brokers pay to put their face next to listings they’re not associated with.
@@ -117,6 +121,8 @@ content: It used to be that brokers would find houses that met your criteria. No
 
 The asking price in today’s market is virtually meaningless — about two-thirds now go for more than asking. Brokers typically recommend people search houses listed a tier below their budget limit — so if you’re only willing to spend $600,000, you should be looking at houses that are listed at $550,000 or below.
 
+~ASIDE~mirage~ASIDE~
+
 The typical house in the city of Seattle goes for about 6 to 7 percent over list price, while across the metro area as a whole it’s closer to 4 percent, according to Redfin. But the spread varies wildly: Some houses are deliberately underpriced to incite a frenzy, while others are set at the minimum amount the seller is willing to accept. Your broker and a quick online review of similar homes recently sold in the area will help you avoid what are essentially mirage houses: Ones that create false hope by setting a list price within your budget, but are actually a waste of time and money to look into because they are clearly underpriced.
 
 Whatever you do, try to avoid falling in love with a house. The most common story you’ll hear from house hunters is that they put all their emotional investment into their dream home, only to get outbid and wind up devastated. Nowadays, the overwhelming majority of people lose their first bid on a house.
@@ -129,7 +135,11 @@ title: Act quickly
 
 content: Home prices in Seattle have increased an average of $266 per day through the past year. At this point, you’ve been reading this story for <span class="elapsed">0 seconds</span>; in that time, prices went up <span class="price-increase">0 cents</span>.
 
+~ASIDE~calendar~ASIDE~
+
 “In a market like this you could be losing a lot of money” by waiting, said Stefanie Massie, a Windermere broker in Lynnwood.
+
+~ASIDE~schedule~ASIDE~
 
 The typical home-selling schedule goes like this: A home hits the market early in the workweek. Over the next few days, interested home shoppers start stopping by the house and inquiring with the listing agent during private tours. There are open houses over the weekend. And then a deadline for everyone to submit their offers a day or two later.
 
@@ -142,9 +152,15 @@ title: Edges are no longer a bargain
 
 content: Most people start out with a long list of must-haves and get slowly beaten down into reality. One of two things then happens: You look for a smaller and cheaper house, or search further out from your preferred neighborhoods. Brokers say most people wind up taking the longer commute in exchange for the house they want.
 
+~ASIDE~edge-map~ASIDE~
+
 The result is added competition in more affordable markets from Everett to Tacoma. Fast-growing Pierce and Snohomish counties have essentially turned into the entry-level home markets for Seattle and the Eastside, where it’s just about impossible to find anything under half a million dollars.
 
+~ASIDE~must-haves~ASIDE~
+
 “Anything under $300,000 is just ferocious in Tacoma right now, because you have our local population, and the King County buyers,” said Anne Jones, who leads the Windermere Tacoma brokerage. She has noticed a “dramatic shift” in the Pierce County market in the past 18 months as more Seattle-area buyers look south. She recalled a recent listing in [Tacoma’s Hilltop neighborhood](https://www.seattletimes.com/seattle-news/as-tacomas-hilltop-changes-residents-are-priced-out/) — desirable because of its I-5 access — which attracted 15 offers; one-third, including the winner, were from Seattle.
+
+~ASIDE~edge-car~ASIDE~
 
 “Some Seattle agents were surprised; they thought we’d be a respite, but we’re getting quite competitive in the entry-level market,” Jones said. “It’s not like it’s a cake walk when you come down here.”
 
@@ -174,7 +190,11 @@ title: Homes that need work
 
 content: There are so many developers and wannabe contractors who watched a few hours of HGTV out there now that you can’t find any great deals on true fixer-uppers: Even complete teardowns are going for a half-million bucks.
 
+~AD~
+
 But you can set yourself apart by being less picky. Morgan Avis initially tried to sell his Queen Anne condo without doing any staging or fixing up basic imperfections. He was stunned to see home shoppers come by and complain about things like a flat-screen TV bracket he left on the wall — one person even whined about a cracked outlet faceplate, something that could be replaced with a couple of bucks and two screws.
+
+~ASIDE~brush~ASIDE~
 
 No one bid on the condo, which he priced at $395,000, after five weeks on the market. On the advice of his realtor, he put about $1,500 worth of “really petty work” into the condo — like moving the microwave onto a shelf instead of the kitchen counter — and staged it. They relisted it, and instantly sold it for $420,000.
 
@@ -231,6 +251,9 @@ Historically, there was one big decision you had to make when putting in an offe
 ~ASIDE~bag~ASIDE~
 
 - *Nonrefundable earnest money*: Buyers have long typically forked over a small amount, like 1 percent of the purchase price, in cash once the deal is initially agreed upon. Now buyers are offering upwards of 5 percent in earnest money. That amounts to about $40,000 on the typical Seattle house. And more buyers are giving this money away as a nonrefundable payment — another new twist — so if the deal falls through, your money is gone.
+
+~ASIDE~earnest-money~ASIDE~
+
 :end
 
 title: Other tips on bidding
@@ -248,6 +271,8 @@ title: The biggest factor of all
 
 content: Now, the most important part: the money. Brokers estimate about three-fourths of people who win bidding wars did so because they offered the most money.
 
+~ASIDE~pile-flag~ASIDE~
+
 Most people will submit bids for the list price with an “escalator” clause, in increments of a few thousand dollars, showing how high they’re willing to go to beat out other offers. Sometimes, if offers are close, a listing agent will call the top bidders and create a secondary bidding war, asking how high they’d be willing to go now that they are close to winning.
 
 There is a typical process that buyers will go through: They will bid somewhat conservatively on the first house, lose by a lot, and be flabbergasted when they find out what the winning bidder did. Their frustration will cause them to increase their offer the next time, and the time after that. Eventually, a “winning at all costs” mentality takes over.
@@ -256,9 +281,13 @@ There is a typical process that buyers will go through: They will bid somewhat c
 
 Overall, about 60 percent of homes across the region sell for more than the list price, although a lot of the “other 40 percent” are luxury homes going for well over $1 million. (A hugely disproportionate share — about 40 percent of homes on the market here today — are luxury homes, because those take much longer to sell.)
 
+~AD~
+
 On occasion, people will “win” houses by offering a ridiculous amount of cash before the offer deadline to take it off the market right away. But in most cases, sellers will wait for the offer deadline and then sit down with their agent to weigh the various offers.
 
 When would the highest bid not win? Brokers typically set aside offers that look “too good to be true” — like if the offer sheet looks lazily written, with various parts of the form blank or filled out incorrectly, or if their financing plan looks off (which goes back to the importance of buyers hiring a good, detail-oriented agent).
+
+~ASIDE~highest-bidder~ASIDE~
 
 “You need to have certainty that the offer you take is going to close,” said Aaron Haffner of Priority Home Lending. “So how as a buyer can you project that certainty?” That goes back to the heavy lifting you hopefully did in the beginning — getting pre-underwritten, having a broker and lender known to the listing agent, offering a larger down payment, etc.
 
