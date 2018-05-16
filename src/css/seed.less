@@ -132,6 +132,14 @@ section {
   }
 }
 
+:nth-child(odd) .cash-pile, :nth-child(even) .cash-pile {
+  position: absolute;
+  left: 0;
+  bottom: -2 * @base-padding;
+  margin-left: @base-padding;
+  width: @graphic-width;
+}
+
 .stopwatch {
   border: 1px solid @df-light-gray;
   border-radius: 4px;

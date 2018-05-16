@@ -50,3 +50,19 @@ var tick = function() {
 };
 
 setInterval(tick, 1000);
+
+// Cash piles
+var onScroll = debounce(function() {
+  var viewportHeight = window.innerHeight;
+  $(".cash-pile").forEach((cash) => {
+    var bounds = cash.getBoundingClientRect();
+    if (bounds.bottom < 0 || bounds.top > viewportHeight) return;
+    console.log(cash);
+    var proportionScrolled = (viewportHeight - bounds.top) / viewportHeight;
+    var horizontalMax = cash.parentNode.getBoundingClientRect().width - 2 * 16 - 100; // TK fix up
+    console.log(proportionScrolled * horizontalMax);
+    cash.style.left = `${proportionScrolled * horizontalMax}px`;
+  });
+}, 15);
+
+window.addEventListener("scroll", onScroll);
