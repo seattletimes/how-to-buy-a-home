@@ -50,30 +50,31 @@ ul {
 
 section {
   position: relative;
-  &.constrained { padding-bottom: 0; }
 
-  &:nth-child(odd) {
+  &.bump-right {
     &::before { left: @graphic-width / 2; }
-    & > :not(aside) { margin-left: @section-offset; }
+    & > h2, & > h3, & > p, & > ul, & > .stopwatch { margin-left: @section-offset; }
     aside { float: left;  }
     .ad { float: right; margin-left: @base-padding; }
   }
-  &:nth-child(even) {
+  &.bump-left {
     &::before {right: @graphic-width / 2; }
-    & > :not(aside) { margin-right: @section-offset; }
+    & > h2, & > h3, & > p, & > ul, & > .stopwatch { margin-right: @section-offset; }
     aside { float: right;  }
     .ad { float: left; margin-right: @base-padding; }
+    .cash-pile { right: 0; margin-right: @base-padding; }
   }
 
   @media @mobile {
-    &:nth-child(odd) > :not(aside), &:nth-child(even) > :not(aside) {
-      margin-left: auto;
-      margin-right: auto;
-    }
-    &:nth-child(odd) aside, &:nth-child(odd) .ad,
-    &:nth-child(even) aside, &:nth-child(even) .ad {
-      float: none;
-      margin: 0 auto;
+    &.bump-right, &.bump-left {
+      & > h2, & > h3, & > p, & > ul, & > .stopwatch {
+        margin-left: auto;
+        margin-right: auto;
+      }
+      aside, .ad {
+        float: none;
+        margin: 0 auto;
+      }
     }
   }
 
@@ -91,7 +92,6 @@ section {
       // border: 1px solid @df-light-gray;
       // border-radius: @graphic-width / 2;
       // background-color: white;
-
       transition: transform 0.1s ease-in;
 
       &:hover, &:focus {
@@ -108,11 +108,12 @@ section {
     }
 
     @media @mobile {
-      :nth-child(even) &, :nth-child(odd) & {
+      .bump-right &, .bump-left & {
         width: 100%;
         img {
           width: auto;
           height: auto;
+          &:hover, &:focus { transform: none; }
         }
       }
     }
@@ -121,10 +122,13 @@ section {
   // vertical path
   &::before {
     position: absolute;
-    top: 0;
+    top: @base-padding;
     bottom: @base-padding;
     width: 2 * @base-padding;
-    background: url(assets/vPath.svg);
+    background:
+        linear-gradient(to top, white, transparent 50px),
+        linear-gradient(to bottom, white, transparent 50px),
+        url(assets/vPath.svg);
     content: "";
 
     @media @mobile {
@@ -132,18 +136,28 @@ section {
     }
   }
 
-  // horizontal path (under section)
   &::after {
-    clear: both;
-    display: block;
-    margin: 0 @graphic-width / 2;
-    height: 2 * @base-padding;
-    background: url(assets/hPath.svg) repeat-x;
     content: "";
+    display: block;
+    clear: both;
+  }
+}
 
-    @media @mobile {
-      margin: 0;
-    }
+.interstitial {
+  clear: both;
+  display: block;
+  margin: @base-padding auto;
+  width: 900px - @section-offset;
+  height: 2 * @base-padding;
+  background:
+      linear-gradient(to right, white, transparent 50px),
+      linear-gradient(to left, white, transparent 50px),
+      url(assets/hPath.svg) repeat-x;
+  content: "";
+  position: relative;
+
+  @media @mobile {
+    margin: 0;
   }
 }
 
@@ -151,13 +165,32 @@ section {
   position: absolute;
   bottom: -2 * @base-padding;
   width: 100px;
-  section:nth-child(odd) & {
-    left: 0;
-    margin-left: @base-padding;
+
+  &[data-side="left"] {
+     left: 0;
+     margin-left: -2 * @base-padding;
   }
-  section:nth-child(even) & {
+  &[data-side="right"] {
     right: 0;
-    margin-right: @base-padding;
+    margin-right: -2 * @base-padding;
+  }
+}
+
+.cornerstone {
+  position: absolute;
+  bottom: 0;
+  width: 2 * @base-padding;
+  height: 2 * @base-padding;
+  background: bleu;
+      // linear-gradient(to right, transparent, blue),
+      // linear-gradient(to bottom, transparent, white 50%);
+  &.left-cornerstone {
+    left: 0;
+    margin-left: @graphic-width / 2;
+  }
+  &.right-cornerstone {
+    right: 0;
+    margin-right: @graphic-width / 2;
   }
 }
 

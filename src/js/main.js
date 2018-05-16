@@ -66,7 +66,7 @@ var onScroll = debounce(function() {
 
     //  (width of horizontal road) - (padding left and right) - (width of cash pile)
     // e.g. at 0, cash pile is placed in one corner; at horizontalMax it's placed in the other
-    var horizontalMax = cash.parentNode.getBoundingClientRect().width - 2 * 16 - 100; // TK fix up
+    var horizontalMax = cash.parentNode.getBoundingClientRect().width; // TK fix up
     cash.style[cash.dataset.side] = `${proportionScrolled * horizontalMax}px`;
   });
 }, 15);
