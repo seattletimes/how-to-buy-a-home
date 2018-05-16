@@ -3,6 +3,7 @@
   <head>
     <%= t.include("partials/_head.html", grunt.data.json) %>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
   </head>
   <body>
     <%= t.include("partials/_nav.html") %>
@@ -10,9 +11,10 @@
 
     <header class="constrained">
       <h1><%= archieml.story.headline %></h1>
-      <h3>
-        By <%= archieml.story.author.name %><br>
-        <small><%= archieml.story.author.description %></small>
+      <div class="byline">
+        By <a class="name"><%= archieml.story.author.name %></a>
+        <div><%= archieml.story.author.description %></div>
+        <div class="date">Originally published: May 16, 2018</div>
       </h3>
     </header>
 
@@ -43,9 +45,10 @@
     <main>
       <% archieml.story.sections.forEach((section, i) => { %>
         <section class="constrained <%= (i % 2) ? 'bump-left' : 'bump-right'%>">
-        <% if (section.title) { %>
-          <h2><%= section.title %></h2>
-        <% } %>
+          <h2 class="<%= section.headerImage %>">
+            <%= section.title || "" %>
+            <img src="assets/aside-graphics/<%= section.headerImage %>.png">
+          </h2>
         <% section.subsections.forEach((subsection) => { %>
           <% if (subsection.title) { %>
             <h3><%= subsection.title %></h3>
@@ -58,10 +61,12 @@
           </div>
         <% } %>
         </section>
-        <div class="interstitial constrained">
-          <img src="assets/cash-pile.svg" class="cash-pile" data-side="<%= (i % 2) ? 'right' : 'left' %>">
-          <div class="cornerstone left-cornerstone"></div>
-          <div class="cornerstone right-cornerstone"></div>
+        <div class="constrained interstitial-wrapper">
+          <div class="interstitial">
+            <img src="assets/cash-pile.svg" class="cash-pile" data-side="<%= (i % 2) ? 'right' : 'left' %>">
+            <div class="cornerstone left-cornerstone"></div>
+            <div class="cornerstone right-cornerstone"></div>
+          </div>
         </div>
       <% }); %>
     </main>

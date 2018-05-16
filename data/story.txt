@@ -6,6 +6,7 @@ author.description: Seattle Times real estate reporter
 
 [sections]
 title:
+headerImage: path-arrow
 [.subsections]
 title:
 content: What does it really take to buy a home in the Seattle area? There are the skyrocketing prices, of course.
@@ -29,6 +30,7 @@ We talked to dozens of people who know the market best — buyers, sellers, brok
 []
 
 title: Get ready
+headerImage: getting-ready
 [.subsections]
 title: Saving up
 
@@ -112,6 +114,7 @@ They wound up going with a realtor from a traditional brokerage — though they 
 []
 
 title: Start searching
+headerImage: search-sign
 [.subsections]
 title:
 
@@ -212,6 +215,7 @@ But sometimes you might get lucky: Similar homes might go up for sale at the sam
 []
 
 title: Begin bidding
+headerImage: bidding
 [.subsections]
 title:
 content: Here, we get to the most frenzied part of the homebuying process today.

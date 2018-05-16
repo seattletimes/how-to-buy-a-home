@@ -27,7 +27,27 @@ h1 {
 h2 {
   font-size: 40px;
   text-align: center;
-  font-family: @df-sans;
+  font-family: Lato, @df-sans;
+  img {
+    display: inline-block;
+    height: @graphic-width;
+    vertical-align: middle;
+  }
+
+  &.path-arrow {
+    img {
+      height: 2 * @graphic-width;
+    }
+  }
+  &.getting-ready {
+    color: #7c91a6;
+  }
+  &.search-sign {
+    color: #00484e;
+  }
+  &.bidding {
+    color: #406647;
+  }
 }
 
 h3 {
@@ -143,11 +163,18 @@ section {
   }
 }
 
+.interstitial-wrapper {
+  margin: 0 auto;
+  padding: 0 @section-offset / 2;
+  @media @mobile {
+    padding: 0;
+  }
+}
+
 .interstitial {
   clear: both;
   display: block;
   margin: @base-padding auto;
-  width: 900px - @section-offset;
   height: 2 * @base-padding;
   background:
       linear-gradient(to right, white, transparent 50px),
