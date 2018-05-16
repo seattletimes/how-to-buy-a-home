@@ -23,7 +23,7 @@
           var data = json.asides[slug];
           if (!data) return "";
           return `<aside>
-            <img src="assets/${data.image}">
+            <img src="assets/aside-graphics/${slug}.png">
             <p>${data.text || slug}</p>
           </aside>`;
         });
