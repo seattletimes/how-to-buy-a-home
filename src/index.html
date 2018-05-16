@@ -17,6 +17,11 @@
     </header>
 
     <%
+      var injectAds = function(markup) {
+        var ad = "<?" + t.include("partials/_ad.html", { type: "square" }).trim() + "?>";
+        return markup.replace(/~AD~/g, ad);
+      }
+
       var asidePattern = /~ASIDE~(.*)~ASIDE~/g;
       var injectAsides = function(markup) {
         return markup.replace(asidePattern, (match, slug) => {
@@ -28,6 +33,12 @@
           </aside>`;
         });
       };
+
+      var injection = function(markup) {
+        return injectAds(injectAsides(markup));
+      };
+
+      var markdown = m => t.renderMarkdown(injection(m)).replace(/<\?|\?>/g, "");
     %>
 
     <main>
@@ -40,7 +51,7 @@
           <% if (subsection.title) { %>
             <h3><%= subsection.title %></h3>
           <% } %>
-          <%= t.renderMarkdown(injectAsides(subsection.content)) %>
+          <%= markdown(subsection.content) %>
         <% }); %>
         <% if (i > 0) { %>
           <div class="stopwatch constrained smaller">

@@ -1,4 +1,4 @@
-// require("./lib/ads");
+require("./lib/ads");
 // var track = require("./lib/tracking");
 
 var $ = require("./lib/qsa");
