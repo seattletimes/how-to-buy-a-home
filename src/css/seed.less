@@ -73,25 +73,25 @@ section {
 
   &.bump-right {
     &::before { left: @graphic-width / 2; }
-    & > h2, & > h3, & > p, & > ul, & > .stopwatch { margin-left: @section-offset; }
-    aside { float: left;  }
+    & > h2, & > h3, & > p, & > ul, & > .stopwatch, & > .inline-aside { margin-left: @section-offset; }
+    aside:not(.inline-aside) { float: left; }
     .ad { float: right; margin-left: @base-padding; }
   }
   &.bump-left {
     &::before {right: @graphic-width / 2; }
-    & > h2, & > h3, & > p, & > ul, & > .stopwatch { margin-right: @section-offset; }
-    aside { float: right;  }
+    & > h2, & > h3, & > p, & > ul, & > .stopwatch, & > .inline-aside { margin-right: @section-offset; }
+    aside:not(.inline-aside) { float: right; }
     .ad { float: left; margin-right: @base-padding; }
     .cash-pile { right: 0; margin-right: @base-padding; }
   }
 
   @media @mobile {
     &.bump-right, &.bump-left {
-      & > h2, & > h3, & > p, & > ul, & > .stopwatch {
+      & > h2, & > h3, & > p, & > ul, & > .stopwatch, & > .inline-aside {
         margin-left: auto;
         margin-right: auto;
       }
-      aside, .ad {
+      .ad {
         float: none;
         margin: 0 auto;
       }
@@ -101,17 +101,12 @@ section {
   aside {
     clear: both;
     position: relative;
-    margin: 8px auto;
+    margin: 8px;
     width: @graphic-width;
     font-family: @df-sans;
     img {
       display:block;
-      margin: 0 auto 4px;
-      width: @graphic-width;
-      height: @graphic-width;
-      // border: 1px solid @df-light-gray;
-      // border-radius: @graphic-width / 2;
-      // background-color: white;
+      margin: 0 auto -10px;
       transition: transform 0.1s ease-in;
 
       &:hover, &:focus {
@@ -120,8 +115,7 @@ section {
     }
     p {
       margin: 0;
-      border: 1px solid @df-light-gray;
-      border-radius: 4px;
+      box-shadow: 0 16px 16px -8px fade(black, 10%);
       padding: 8px;
       background-color: white;
       font-size: 14px;
@@ -131,11 +125,18 @@ section {
       .bump-right &, .bump-left & {
         width: 100%;
         img {
-          width: auto;
-          height: auto;
           &:hover, &:focus { transform: none; }
         }
       }
+    }
+  }
+
+  .inline-aside {
+    clear: none;
+    width: initial;
+    img {
+      max-width: 80%;
+      &:hover, &:focus { transform: none; }
     }
   }
 

@@ -25,11 +25,12 @@
       }
 
       var asidePattern = /~ASIDE~(.*)~ASIDE~/g;
+      var inline = ['leaves', 'squirrel', 'stamp', 'underwritten', 'local-lenders', 'mirage', 'schedule', 'duplicate', 'pile-flag'];
       var injectAsides = function(markup) {
         return markup.replace(asidePattern, (match, slug) => {
           var data = json.asides[slug];
           if (!data) return "";
-          return `<aside>
+          return `<aside class="${inline.includes(slug) ? 'inline-aside' : ''}">
             <img src="assets/aside-graphics/${slug}.png">
             ${data.text ? `<p>${data.text}</p>` : " "}</aside>`;
         });

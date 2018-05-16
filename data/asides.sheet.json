@@ -4,8 +4,7 @@
   },
   "prices-rising": {
     "section": "prepare for",
-    "icon": "money increase",
-    "text": "Home prices are rising faster here than anywhere else in the country."
+    "icon": "money increase"
   },
   "getting-ready": {
     "icon": "sign"
@@ -15,52 +14,38 @@
     "icon": "Zillow, HERE Technologies"
   },
   "full-time-job": {
-    "icon": "pill bottle",
-    "text": "Many buyers described the home-hunting process as a stressful full-time job."
+    "icon": "pill bottle"
   },
   "leaves": {
-    "icon": "leaves changing",
-    "text": "The average buyer is outbid 3-5 times and pursues a house for 6-12 months."
+    "icon": "leaves changing"
   },
   "save-up": {
     "section": "saving up",
-    "icon": "person jumping over hurdle",
-    "text": "Before even searching for homes, you'll need to save up a lot of money."
+    "icon": "person jumping over hurdle"
   },
   "piggy": {
-    "icon": "piggy banks/ graph of median down payment",
-    "text": "TK ----  will do this seperately for the chart"
-  },
-  "median-down-graph": {
-    "icon": "graph"
+    "icon": "piggy banks/ graph of median down payment"
   },
   "squirrel": {
-    "icon": "Squirrel 4 acorns",
-    "text": "To make real progress, buyers must annually squirrel away an amount equal to one-fourth of the local median income."
+    "icon": "Squirrel 4 acorns"
   },
   "acorn": {
-    "icon": "gift acorn",
-    "text": "Even people in their 30s and 40s are stuck asking mom and dad for gifts."
+    "icon": "gift acorn"
   },
   "stamp": {
-    "icon": "pre-approval stamp “We think this person can buy a home”",
-    "text": "A mortgage pre-approval is your basic first qualification but not a loan guarantee."
+    "icon": "pre-approval stamp “We think this person can buy a home”"
   },
   "all-cash": {
-    "icon": "cash/ mortgage buyer",
-    "text": "About 1 in 4 homes locally are bought entirely with cash, and good luck competing with them."
+    "icon": "cash/ mortgage buyer"
   },
   "underwritten": {
-    "icon": "pre-written check list - Guaranteed you can buy a home Solid gold buyer!",
-    "text": "To really be competitive, you'll need to get \"pre-underwritten\" for a mortgage at the start."
+    "icon": "pre-written check list - Guaranteed you can buy a home Solid gold buyer!"
   },
   "local-lenders": {
-    "icon": "photos of lenders",
-    "text": "Local lenders known in the real estate community can give you a leg up to skeptical sellers' brokers."
+    "icon": "photos of lenders"
   },
   "cake": {
-    "icon": "cake slice",
-    "text": "One local lender helped his client get a house by taking calls during his wife’s birthday party."
+    "icon": "cake slice"
   },
   "broker": {
     "section": "picking a broker",
@@ -79,32 +64,24 @@
     "icon": "ALERT! Do not fall in love"
   },
   "calendar": {
-    "icon": "calendar",
-    "text": "In this market you lose a lot of money by waiting - prices grow an average of $266 per day, in Seattle."
+    "icon": "calendar"
   },
   "one-week": {
     "icon": "ALERT! You may have less than one week to buy a house!"
   },
   "schedule": {
-    "icon": "TYPICAL HOME-SELLING SCHEDULE:",
-    "text": "A home hits the market on a Tuesday, there are open houses through the weekend, and offers are due on Monday."
+    "icon": "TYPICAL HOME-SELLING SCHEDULE:"
   },
   "edge-map": {
     "section": "Edges of region no \u0003longer a bargain",
-    "icon": "map",
-    "text": "TK --- will do this chatter once we get the map so i can see what it says"
-  },
-  "edge-car": {
-    "icon": "car drive to house"
+    "icon": "map"
   },
   "must-haves": {
-    "icon": "must-haves list",
-    "text": "Long list of must-haves reduced to reality. Either you search for a smaller-cheaper house or search further out."
+    "icon": "must-haves list"
   },
   "stinker": {
     "section": "Look for ‘stinkers”",
-    "icon": "house with flies",
-    "text": "Homes that don't sell quickly attract a \"stink\" in the market, but they might be hidden opportunities."
+    "icon": "house with flies"
   },
   "brush": {
     "section": "Homes that need work",
@@ -112,13 +89,11 @@
   },
   "off-market": {
     "section": "Off-market sales",
-    "icon": "pile of letters",
-    "text": "Want a real deal? You'll have to know someone who wants to sell without the hassle of listing their home."
+    "icon": "pile of letters"
   },
   "duplicate": {
     "section": "Duplicate houses",
-    "icon": "two houses",
-    "text": "When two similar homes hit the market in the same neighborhood, one is likely to be less sought-after."
+    "icon": "two houses"
   },
   "appraisal-contingency": {
     "section": "Appraisal contingency",
@@ -141,27 +116,22 @@
   },
   "bag": {
     "section": "Rent backs",
-    "icon": "delayed baggage/ boxes",
-    "text": "Your home will be available in a few months - once the old owners are able to find a new place."
+    "icon": "delayed baggage/ boxes"
   },
   "letter": {
     "section": "The letter",
-    "icon": "trash can",
-    "text": "That heartfelt letter with pictures of your kids might go straight in the trash without the seller ever seeing it."
+    "icon": "trash can"
   },
   "foam-finger": {
     "section": "Ask to be #2",
-    "icon": "foam finger",
-    "text": "Second place in a bidding war means you're not out of the running yet.\n"
+    "icon": "foam finger"
   },
   "mirage": {
-    "icon": "mirage house",
-    "text": "A home with a listing price that looks too good to be true probably is."
+    "icon": "mirage house"
   },
   "pile-flag": {
     "section": "Win the war",
-    "icon": "pile cash with flag",
-    "text": "About three-fourths of the time, the highest offer gets the house."
+    "icon": "pile cash with flag"
   },
   "highest-bidder": {},
   "tips": {
