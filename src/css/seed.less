@@ -84,6 +84,12 @@ section {
       border: 1px solid @df-light-gray;
       border-radius: @graphic-width / 2;
       background-color: white;
+
+      transition: transform 0.1s ease-in;
+
+      &:hover, &:focus {
+        transform: scale(1.5, 1.5);
+      }
     }
     p {
       margin: 0;

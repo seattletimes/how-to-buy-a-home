@@ -24,7 +24,7 @@ Our reporting found the average buyer will tour dozens of houses, lose to higher
 
 “It was just all-consuming,” said Michael McDermott, who bought a house with his wife in North Seattle last year. “You have to always be on guard and always be ready. It’s such a rabid market that it can get out of control really fast.”
 
-~ASIDE~outbid~ASIDE~
+~ASIDE~leaves~ASIDE~
 
 We talked to dozens of people who know the market best — buyers, sellers, brokers and lenders from around the Puget Sound region — to put together a complete homebuying survival guide.
 :end
@@ -42,8 +42,6 @@ Technically, there are programs that allow you to put as little as 3 percent dow
 
 Here is the cold, hard math: The median down payment on all homes (single-family and condos) in King County just topped $100,000 for the first time, up from about $50,000 just five years ago, according to mortgage tracking company Attom Data Solutions.
 
-~ASIDE~down-doubled~ASIDE~
-
 That’s an increase of $10,000 a year just for the down payment. Anyone who added less than that to their home-saving piggy bank in the last year is actually farther away from being able to afford the median-priced home than they were when they started saving.
 
 ~ASIDE~squirrel~ASIDE~
@@ -57,7 +55,7 @@ title: Getting a loan
 
 content: OK, now you still need a loan for the rest of the purchase. Unfortunately, the instant you sign up for a mortgage, you’re already kicked toward the middle of the pack of buyers: 23 percent of all local homes are now purchased entirely with cash, according to Attom. Those offers are much more attractive to sellers and almost always win if they are near the highest overall bid.
 
-~ASIDE~cash~ASIDE~
+~ASIDE~all-cash~ASIDE~
 
 Buyers that can’t go with all cash need to get preapproved for a mortgage home loan before they can go shopping for a home; it’s the bare essential qualification you need to be eligible as a buyer. But beware: While this is a certificate from a lender saying “we think this person can buy a home,” it’s not a commitment to lend because the mortgage company typically doesn’t verify a person’s financial information at this stage in the process.
 
@@ -67,7 +65,7 @@ To get a leg up, buyers are now going a step further — getting pre-underwritte
 
 Kyle Bergquist, a lender with Primary Residential Mortgage in Seattle, said about half his clients now get pre-underwritten — which is “as close to cash as you can get.”
 
-~ASIDE~checklist~ASIDE~
+~ASIDE~underwritten~ASIDE~
 
 “Getting preapproved is nowhere near adequate. We had to get pre-underwritten,” said A.J. Singh, who recently bought a home in Seattle’s Wedgwood area with his wife after having bought multiple properties in a less-competitive environment in Philadelphia. “I didn’t even know this was a thing until we got here.”
 :end
@@ -97,7 +95,7 @@ Just like you would visit several houses to find the best fit, do the same with 
 
 You can also test out realtors in the real world by going to open houses. Tobias Nitzsche and his wife were looking to buy a house here last year but found out they didn’t really like the first realtor they picked. Then they ran into Stephanie Spiro at an open house for a home she was listing, and found her to be so helpful and friendly that they hired her for their own home hunt.
 
-~ASIDE~broke~ASIDE~
+~ASIDE~broker~ASIDE~
 
 Realtors are an extension of the “location, location, location” mantra in real estate: Most realtors have one neighborhood they know really well but things can get dicey if they start venturing into new territory. Look for people who have already done lots of deals in the neighborhood you want.
 
@@ -230,7 +228,7 @@ Historically, there was one big decision you had to make when putting in an offe
 
 - *Rentbacks*: You may be under the mistaken impression that once you buy a home, you can now live in it. But these days sellers are often under the gun to turn around and buy a home in the same crazy market, so they may want a few months to continue living in their home while they search for their next house. It’s common for buyers to agree to delay their move into their new home by granting 60-day or 90-day rentbacks to the sellers.
 
-~ASIDE~boxes~ASIDE~
+~ASIDE~bag~ASIDE~
 
 - *Nonrefundable earnest money*: Buyers have long typically forked over a small amount, like 1 percent of the purchase price, in cash once the deal is initially agreed upon. Now buyers are offering upwards of 5 percent in earnest money. That amounts to about $40,000 on the typical Seattle house. And more buyers are giving this money away as a nonrefundable payment — another new twist — so if the deal falls through, your money is gone.
 :end

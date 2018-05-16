@@ -29,8 +29,7 @@
           if (!data) return "";
           return `<aside>
             <img src="assets/aside-graphics/${slug}.png">
-            <p>${data.text || slug}</p>
-          </aside>`;
+            ${data.text ? `<p>${data.text}</p>` : " "}</aside>`;
         });
       };
 
