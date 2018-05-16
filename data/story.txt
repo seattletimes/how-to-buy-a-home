@@ -117,6 +117,8 @@ content: It used to be that brokers would find houses that met your criteria. No
 
 The asking price in today’s market is virtually meaningless — about two-thirds now go for more than asking. Brokers typically recommend people search houses listed a tier below their budget limit — so if you’re only willing to spend $600,000, you should be looking at houses that are listed at $550,000 or below.
 
+The typical house in the city of Seattle goes for about 6 to 7 percent over list price, while across the metro area as a whole it’s closer to 4 percent, according to Redfin. But the spread varies wildly: Some houses are deliberately underpriced to incite a frenzy, while others are set at the minimum amount the seller is willing to accept. Your broker and a quick online review of similar homes recently sold in the area will help you avoid what are essentially mirage houses: Ones that create false hope by setting a list price within your budget, but are actually a waste of time and money to look into because they are clearly underpriced.
+
 Whatever you do, try to avoid falling in love with a house. The most common story you’ll hear from house hunters is that they put all their emotional investment into their dream home, only to get outbid and wind up devastated. Nowadays, the overwhelming majority of people lose their first bid on a house.
 
 ~ASIDE~avoid-love~ASIDE~
@@ -145,6 +147,9 @@ The result is added competition in more affordable markets from Everett to Tacom
 “Anything under $300,000 is just ferocious in Tacoma right now, because you have our local population, and the King County buyers,” said Anne Jones, who leads the Windermere Tacoma brokerage. She has noticed a “dramatic shift” in the Pierce County market in the past 18 months as more Seattle-area buyers look south. She recalled a recent listing in [Tacoma’s Hilltop neighborhood](https://www.seattletimes.com/seattle-news/as-tacomas-hilltop-changes-residents-are-priced-out/) — desirable because of its I-5 access — which attracted 15 offers; one-third, including the winner, were from Seattle.
 
 “Some Seattle agents were surprised; they thought we’d be a respite, but we’re getting quite competitive in the entry-level market,” Jones said. “It’s not like it’s a cake walk when you come down here.”
+
+If you work in downtown Seattle, you’ll need to drive at least one hour each way to reach an area where the median home costs less than $590,000.
+
 :end
 
 title: Look for ‘stinkers’
@@ -199,7 +204,7 @@ Historically, there was one big decision you had to make when putting in an offe
 
   This is a concern for sellers — if buyers wind up with a mortgage loan that’s lower than what they planned, they might back out of the deal or ask to lower the price. So, to win over uneasy sellers, most successful buyers now must “waive” the appraisal contingency as part of their initial bid — guaranteeing they will pay their bid price, no matter what the appraisal will be. So if a buyer agrees to buy a house for $750,000 but the appraiser says it’s only worth $700,000, the buyer is on the hook for paying the remaining $50,000 in cash.
 
-  Practically speaking, this means buyers can’t max out their down payment with all the cash they have saved up, because they might need to some more if the appraisal comes in low.
+  Practically speaking, this means buyers can’t max out their down payment with all the cash they have saved up, because they might need some more if the appraisal comes in low.
 
 ~ASIDE~inspection~ASIDE~
 
@@ -234,7 +239,7 @@ content: - *The letter*: Just about everyone now sends sellers a letter about ho
 
 ~ASIDE~foam-finger~ASIDE~
 
-- *Ask to be No. 2:* Savvy buyers can ask to placed second in line in case the winner’s offer falls through, or they back out of the purchase.
+- *Ask to be No. 2:* Savvy buyers can ask to be placed second in line in case the winner’s offer falls through, or they back out of the purchase.
 
   That way, said Laurie Way, a Coldwell Banker Bain broker in Seattle who has used that strategy, “They don’t start taking offers all over again — you just slide right in.”
 :end
@@ -249,8 +254,6 @@ There is a typical process that buyers will go through: They will bid somewhat c
 
 “It’s almost a psychological defeat that causes them to become desperate, quite frankly, and if they have the cash, they will often throw more cash at a home than the technical value itself might support,” said John Manning, a RE/MAX broker in Ballard.
 
-The typical house in the city of Seattle goes for about 6 to 7 percent over list price, while across the metro area as a whole it’s closer to 4 percent, according to Redfin. But the spread varies wildly: Some houses are deliberately underpriced to incite a frenzy, while others are set at the minimum amount the seller is willing to accept. Your broker and a quick online review of similar homes recently sold in the area will help you avoid what are essentially mirage houses: Ones that create false hope by setting a list price within your budget, but are actually a waste of time and money to look into because they are clearly underpriced.
-
 Overall, about 60 percent of homes across the region sell for more than the list price, although a lot of the “other 40 percent” are luxury homes going for well over $1 million. (A hugely disproportionate share — about 40 percent of homes on the market here today — are luxury homes, because those take much longer to sell.)
 
 On occasion, people will “win” houses by offering a ridiculous amount of cash before the offer deadline to take it off the market right away. But in most cases, sellers will wait for the offer deadline and then sit down with their agent to weigh the various offers.
@@ -260,8 +263,6 @@ When would the highest bid not win? Brokers typically set aside offers that look
 “You need to have certainty that the offer you take is going to close,” said Aaron Haffner of Priority Home Lending. “So how as a buyer can you project that certainty?” That goes back to the heavy lifting you hopefully did in the beginning — getting pre-underwritten, having a broker and lender known to the listing agent, offering a larger down payment, etc.
 
 There are also unique terms that each seller values as a “must-have” — like the rent-back provision so the sellers can live in their home while they search for a new place, or a guarantee that a real family (not an investor) will be moving into their old neighborhood. Talking to the seller’s agent before submitting a bid can help you highlight what a seller is looking for.
-
-“You got to play the game, and this is how we play it,” Spiro said.
 
 Once your bid is accepted, you should be able to go on autopilot and let your professional team handle the “closing” — the legal part that usually lasts about 30 days. Then the keys are yours.
 
