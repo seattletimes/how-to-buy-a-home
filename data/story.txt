@@ -125,7 +125,7 @@ Whatever you do, try to avoid falling in love with a house. The most common stor
 
 title: Act quickly
 
-content: Home prices in Seattle have increased an average of $266 per day through the past year. At this point, you’ve been reading this story for about 5 minutes; in that time, prices went up another dollar.
+content: Home prices in Seattle have increased an average of $266 per day through the past year. At this point, you’ve been reading this story for <span class="elapsed">0 seconds</span>; in that time, prices went up <span class="price-increase">0 cents</span>.
 
 “In a market like this you could be losing a lot of money” by waiting, said Stefanie Massie, a Windermere broker in Lynnwood.
 

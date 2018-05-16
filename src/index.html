@@ -42,6 +42,11 @@
           <% } %>
           <%= t.renderMarkdown(injectAsides(subsection.content)) %>
         <% }); %>
+        <% if (i > 0) { %>
+          <div class="stopwatch constrained smaller">
+            In the <span class="elapsed">0 seconds</span> since you started reading this article, the price of your future home has increased by <span class="price-increase">0 cents</span>. <small>(Based on an average increase of $266 per day.)</small>
+          </div>
+        <% } %>
         </section>
       <% }); %>
     </main>

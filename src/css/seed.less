@@ -8,6 +8,10 @@
   margin: 0 auto;
   max-width: 900px;
   padding: @base-padding;
+
+  .smaller {
+    max-width: 600px;
+  }
 }
 
 h1 {
@@ -126,4 +130,21 @@ section {
       margin: 0;
     }
   }
+}
+
+.stopwatch {
+  border: 1px solid @df-light-gray;
+  border-radius: 4px;
+  margin-bottom: @base-padding;
+  font-family: @df-sans;
+}
+
+.elapsed {
+  font-weight: bold;
+  color: @st-dark-red;
+}
+
+.price-increase {
+  font-weight: bold;
+  color: @st-dark-green;
 }
