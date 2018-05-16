@@ -6,12 +6,12 @@
     },
     "live": {
       "bucket": "projects.seattletimes.com",
-      "path": ""
+      "path": "2018/how-to-buy-a-home"
     }
   },
   "title": "How to buy a home in the Seattle area: a survival guide",
   "description": "TK",
-  "url": "",
+  "url": "https://projects.seattletimes.com/2018/how-to-buy-a-home/",
   "image": "assets/social.jpg",
   "sheets": ["1iwl22fQnFAh4cAUU7O5vS_B8euczfp-JIEiJkVSyohs"],
   "standout": false,
