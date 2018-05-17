@@ -45,7 +45,7 @@ Here is the cold, hard math: The median down payment on all homes (single-family
 
 <p><img src="assets/down-payment-graph.jpg" alt="Bar chart showing median down payment from 2007 to 2017"></p>
 
-That’s an increase of $10,000 a year just for the down payment. Anyone who added less than that to their home-saving piggy bank in the last year is actually farther away from being able to afford the median-priced home than they were when they started saving.
+That’s an increase of $10,000 a year just for the down payment. Anyone who added less than that to their home-saving piggy bank in the last year is actually further away from being able to afford the median-priced home than they were when they started saving.
 
 ~ASIDE~acorn~ASIDE~
 
@@ -175,7 +175,7 @@ content: ~ASIDE~stinker~ASIDE~
 
 Sometimes homes don’t sell quickly. Anything that’s been on the market for more than a week or two starts to carry what is known in the real estate community as a “stink” — “There must be something wrong with it, if it didn’t sell in this market,” the theory goes.
 
-In some cases, however, the home remains unsold because a sale fell through in the closing process, or the listing price was simply too high. Believe it or not, nearly 20 percent of homes listed in the Seattle metro area today actually lowered their asking price at some point in the process — a sign that lots of people are actually asking for too much money and scaring off buyers. Taking a hard look at these homes and investigating their backstory might yield a chance to be the lone bidder on a house.
+In some cases, however, the home remains unsold because a sale fell through in the closing process, or the listing price was simply too high. Believe it or not, nearly 20 percent of homes listed in the Seattle metro area today actually lowered their asking price at some point in the process — a sign that lots of people are actually asking for too much money and scaring off buyers. Taking a hard look at these homes and investigating their back story might yield a chance to be the lone bidder on a house.
 :end
 
 title: Off-market sales
