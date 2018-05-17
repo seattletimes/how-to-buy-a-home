@@ -67,8 +67,7 @@ Kyle Bergquist, a lender with Primary Residential Mortgage in Seattle, said abou
 
 “Getting preapproved is nowhere near adequate. We had to get pre-underwritten,” said A.J. Singh, who recently bought a home in Seattle’s Wedgwood area with his wife after having bought multiple properties in a less-competitive environment in Philadelphia. “I didn’t even know this was a thing until we got here.”
 
-~ASIDE~stamp~ASIDE~
-~ASIDE~underwritten~ASIDE~
+~ASIDE~preapproved~ASIDE~
 :end
 
 title: Picking a lender
@@ -119,7 +118,6 @@ It used to be that brokers would find houses that met your criteria. Now that’
 
 The asking price in today’s market is virtually meaningless — about two-thirds now go for more than asking. Brokers typically recommend people search houses listed a tier below their budget limit — so if you’re only willing to spend $600,000, you should be looking at houses that are listed at $550,000 or below.
 
-~ASIDE~alert-mirage~ASIDE~
 ~ASIDE~mirage~ASIDE~
 
 The typical house in the city of Seattle goes for about 6 to 7 percent over list price, while across the metro area as a whole it’s closer to 4 percent, according to Redfin. But the spread varies wildly: Some houses are deliberately underpriced to incite a frenzy, while others are set at the minimum amount the seller is willing to accept. Your broker and a quick online review of similar homes recently sold in the area will help you avoid what are essentially mirage houses: Ones that create false hope by setting a list price within your budget, but are actually a waste of time and money to look into because they are clearly underpriced.
