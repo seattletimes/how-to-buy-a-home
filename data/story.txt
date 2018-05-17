@@ -47,10 +47,11 @@ Here is the cold, hard math: The median down payment on all homes (single-family
 
 That’s an increase of $10,000 a year just for the down payment. Anyone who added less than that to their home-saving piggy bank in the last year is actually farther away from being able to afford the median-priced home than they were when they started saving.
 
-~ASIDE~squirrel~ASIDE~
 ~ASIDE~acorn~ASIDE~
 
 To save up a meaningful amount — let’s say $20,000 a year — requires the median local household to stash away about one-fourth of their income for a house. Because that’s not practical, most homebuyers are wealthier or have cash from their prior home sale to use on their next one; others rely on previous savings and gifts (even buyers in their 30s and 40s who thought the days of asking their parents for money were long over).
+
+~ASIDE~squirrel~ASIDE~
 :end
 
 title: Getting a loan
@@ -85,7 +86,7 @@ Kara Fichthorn remembers the frantic experience when she and her boyfriend were 
 The biggest thing sellers are looking for now is certainty that a deal will close quickly and under the terms agreed upon.
 :end
 
-title: Pick your broker
+title: Picking your broker
 
 content: You can find 500 Yelp reviews about your $4 cup of coffee, but there’s surprisingly little information on how to find someone who will help you with your biggest purchase and earn a commission that averages about $25,000 in Seattle and is paid by the seller.
 
@@ -118,9 +119,9 @@ It used to be that brokers would find houses that met your criteria. Now that’
 
 The asking price in today’s market is virtually meaningless — about two-thirds now go for more than asking. Brokers typically recommend people search houses listed a tier below their budget limit — so if you’re only willing to spend $600,000, you should be looking at houses that are listed at $550,000 or below.
 
-~ASIDE~mirage~ASIDE~
-
 The typical house in the city of Seattle goes for about 6 to 7 percent over list price, while across the metro area as a whole it’s closer to 4 percent, according to Redfin. But the spread varies wildly: Some houses are deliberately underpriced to incite a frenzy, while others are set at the minimum amount the seller is willing to accept. Your broker and a quick online review of similar homes recently sold in the area will help you avoid what are essentially mirage houses: Ones that create false hope by setting a list price within your budget, but are actually a waste of time and money to look into because they are clearly underpriced.
+
+~ASIDE~mirage~ASIDE~
 
 ~ASIDE~avoid-love~ASIDE~
 
