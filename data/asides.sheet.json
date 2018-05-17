@@ -1,143 +1,182 @@
 {
   "path-arrow": {
-    "icon": "path arrow, depressing emoji"
+    "icon": "path arrow, depressing emoji",
+    "alt": "Arrow pointing to the path to Seattle home ownership (mild to severly depressing)"
   },
   "prices-rising": {
     "section": "prepare for",
-    "icon": "money increase"
+    "icon": "money increase",
+    "alt": "Skyrocketing dollar sign"
   },
   "getting-ready": {
-    "icon": "sign"
+    "icon": "sign",
+    "alt": "Getting ready"
   },
   "undefined": {
     "section": "Sources:",
     "icon": "Zillow, HERE Technologies"
   },
   "full-time-job": {
-    "icon": "pill bottle"
+    "icon": "pill bottle",
+    "alt": "bottle of pain killers"
   },
   "leaves": {
-    "icon": "leaves changing"
+    "icon": "leaves changing",
+    "alt": "leaves dying"
   },
   "save-up": {
     "section": "saving up",
-    "icon": "person jumping over hurdle"
+    "icon": "person jumping over hurdle",
+    "alt": "person jumping over a dollar hurdle"
   },
   "piggy": {
-    "icon": "piggy banks/ graph of median down payment"
+    "icon": "piggy banks/ graph of median down payment",
+    "alt": "small and large piggy banks"
   },
   "squirrel": {
-    "icon": "Squirrel 4 acorns"
+    "icon": "Squirrel 4 acorns",
+    "alt": "squirrel separating nuts"
   },
   "acorn": {
-    "icon": "gift acorn"
+    "icon": "gift acorn",
+    "alt": "gift acorn"
   },
   "preapproved": {
-    "section": "getting a loan"
+    "section": "getting a loan",
+    "alt": "stamp that says 'pre-approved' compared with badge that says 'pre-underwritten'"
   },
   "all-cash": {
-    "icon": "cash/ mortgage buyer"
+    "icon": "cash/ mortgage buyer",
+    "alt": "cash buyer"
   },
   "local-lenders": {
-    "icon": "photos of lenders"
+    "icon": "photos of lenders",
+    "alt": "picture frames of two unknown lenders and one local known lender"
   },
   "cake": {
-    "icon": "cake slice"
+    "icon": "cake slice",
+    "alt": "birthday cake slice"
   },
   "broker": {
     "section": "picking a broker",
     "icon": "person with a sash that says neighborhood expert",
+    "alt": "neighborhood expert sash",
     "text": "Most brokers specialize in one neighborhood. "
   },
   "search-sign": {
     "section": "Searching",
-    "icon": "sign"
+    "icon": "sign",
+    "alt": "searching sign"
   },
   "over-asking": {
     "icon": "suggested price house",
+    "alt": "suggested price house",
     "text": "A list price is now just a suggestion: two-thirds of homes go for over asking."
   },
   "avoid-love": {
-    "icon": "ALERT! Do not fall in love"
+    "icon": "ALERT! Do not fall in love",
+    "alt": "ALERT! Do not fall in love"
   },
   "calendar": {
-    "icon": "calendar"
+    "icon": "calendar",
+    "alt": "calendar"
   },
   "one-week": {
-    "icon": "ALERT! You may have less than one week to buy a house!"
+    "icon": "ALERT! You may have less than one week to buy a house!",
+    "alt": "ALERT! You may have less than one week to buy a house!"
   },
   "schedule": {
-    "icon": "TYPICAL HOME-SELLING SCHEDULE:"
+    "icon": "TYPICAL HOME-SELLING SCHEDULE:",
+    "alt": "selling week schedule"
   },
   "edge-map": {
     "section": "Edges of region no \u0003longer a bargain",
-    "icon": "map"
+    "icon": "map",
+    "alt": "map showing people moving out from seattle"
   },
   "must-haves": {
-    "icon": "must-haves list"
+    "icon": "must-haves list",
+    "alt": "must-haves list with items crossed out"
   },
   "stinker": {
     "section": "Look for ‘stinkers”",
-    "icon": "house with flies"
+    "icon": "house with flies",
+    "alt": "house with flies"
   },
   "brush": {
     "section": "Homes that need work",
+    "alt": "paint brush",
     "text": "Picky buyers won't bother with homes that need some little fixes, reducing competition."
   },
   "off-market": {
     "section": "Off-market sales",
-    "icon": "pile of letters"
+    "icon": "pile of letters",
+    "alt": "two people whispering"
   },
   "duplicate": {
     "section": "Duplicate houses",
-    "icon": "two houses"
+    "icon": "two houses",
+    "alt": "two houses one with hearts being hugged and another getting ignored and peed on by a dog"
   },
   "appraisal-contingency": {
     "section": "Appraisal contingency",
     "icon": "pile cash",
+    "alt": "pile of cash and a price tag",
     "text": "Appraisal comes in low? You'll have to fork over more cash."
   },
   "bidding": {
     "section": "Bidding",
-    "icon": "bidding sign"
+    "icon": "bidding sign",
+    "alt": "hands holding up bidding signs"
   },
   "inspection": {
     "section": "Inspection contingency",
     "icon": "check under a house",
+    "alt": "house being lifted up and checked with a magnified glass",
     "text": "Find something wrong with the house after bidding? That's your problem."
   },
   "earnest-money": {
     "section": "Earnest money",
-    "icon": "money hands"
+    "icon": "money hands",
+    "alt": "hands giving money to another set of hands"
   },
   "bag": {
     "section": "Rent backs",
-    "icon": "delayed baggage/ boxes"
+    "icon": "delayed baggage/ boxes",
+    "alt": "baggage stamped with 'delayed'"
   },
   "letter": {
     "section": "The letter",
-    "icon": "trash can"
+    "icon": "trash can",
+    "alt": "letter folded into a paper airplane flying into a trash can"
   },
   "foam-finger": {
     "section": "Ask to be #2",
-    "icon": "foam finger"
+    "icon": "foam finger",
+    "alt": "foam finger with '#2' on it"
   },
   "mirage": {
-    "icon": "mirage house"
+    "icon": "mirage house",
+    "alt": "ALERT! don't fall for the mirage house sign"
   },
   "pile-flag": {
     "section": "Win the war",
-    "icon": "pile cash with flag"
+    "icon": "pile cash with flag",
+    "alt": "pile cash with welcom home flag"
   },
-  "highest-bidder": {},
+  "highest-bidder": {
+    "alt": "cart full of cash"
+  },
   "tips": {
     "icon": "tips sign"
   },
   "alert-protections": {
-    "icon": "protections waived sign"
+    "icon": "protections waived sign",
+    "alt": "ALERT! Protections waived sign"
   },
   "alert-concessions": {
-    "icon": "consession sign"
+    "icon": "consession sign",
+    "alt": "ALERT! Other concessions waived sign"
   },
   "alert-mirage": {
     "icon": "mirage sign"

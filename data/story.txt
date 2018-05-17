@@ -7,6 +7,7 @@ author.description: Seattle Times real estate reporter
 [sections]
 title:
 headerImage: path-arrow
+headerAlt: Signs that say 'path to Seattle home ownership' and 'mildly to severely depressing'
 [.subsections]
 title:
 content: ~ASIDE~prices-rising~ASIDE~
@@ -33,6 +34,7 @@ We talked to dozens of people who know the market best — buyers, sellers, brok
 
 title: Get ready
 headerImage: getting-ready
+headerAlt: Sign that says 'getting ready'
 [.subsections]
 title: Saving up
 
@@ -43,7 +45,7 @@ Technically, there are programs that allow you to put as little as 3 percent dow
 
 Here is the cold, hard math: The median down payment on all homes (single-family and condos) in King County just topped $100,000 for the first time, up from about $50,000 just five years ago, according to mortgage tracking company Attom Data Solutions.
 
-<p><img src="assets/down-payment-graph.jpg" alt="TK"></p>
+<p><img src="assets/down-payment-graph.jpg" alt="Bar chart showing median down payment from 2007 to 2017"></p>
 
 That’s an increase of $10,000 a year just for the down payment. Anyone who added less than that to their home-saving piggy bank in the last year is actually farther away from being able to afford the median-priced home than they were when they started saving.
 
@@ -110,6 +112,7 @@ They wound up going with a realtor from a traditional brokerage — though they 
 
 title: Start searching
 headerImage: search-sign
+headerAlt: sign that says searching
 [.subsections]
 title:
 
@@ -150,7 +153,7 @@ content:~ASIDE~must-haves~ASIDE~
 
 Most people start out with a long list of must-haves and get slowly beaten down into reality. One of two things then happens: You look for a smaller and cheaper house, or search further out from your preferred neighborhoods. Brokers say most people wind up taking the longer commute in exchange for the house they want.
 
-<p><img src="assets/commute-graph.jpg" alt="TK"></p>
+<p><img src="assets/commute-graph.jpg" alt="Bar chart showing commute time and median home price of various Seattle area neighborhoods"></p>
 
 The result is added competition in more affordable markets from Everett to Tacoma. Fast-growing Pierce and Snohomish counties have essentially turned into the entry-level home markets for Seattle and the Eastside, where it’s just about impossible to find anything under half a million dollars.
 
@@ -207,6 +210,7 @@ But sometimes you might get lucky: Similar homes might go up for sale at the sam
 
 title: Begin bidding
 headerImage: bidding
+headerAlt: Sign that says 'bidding' surrounded by hands holding bidding cards
 [.subsections]
 title:
 content: Here, we get to the most frenzied part of the homebuying process today.

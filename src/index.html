@@ -16,7 +16,7 @@
         <div><%= archieml.story.author.description %></div>
         <div class="date">Originally published: May 16, 2018</div>
       </div>
-      <img src="assets/splash.jpg" alt="TK">
+      <img src="assets/splash.jpg" alt="Illustrated map of the complexities of buying a home in Seattle">
     </header>
 
     <%
@@ -32,7 +32,7 @@
           var data = json.asides[slug];
           if (!data) return "";
           return `<aside class="${inline.includes(slug) ? 'inline-aside' : ''}">
-            <img src="assets/aside-graphics/${slug}.png">
+            <img src="assets/aside-graphics/${slug}.png" alt="${data.alt}">
             ${data.text ? `<p>${data.text}</p>` : " "}</aside>`;
         });
       };
@@ -64,7 +64,7 @@
         <section class="constrained <%= (i % 2) ? 'bump-left' : 'bump-right'%>">
           <h2 class="<%= section.headerImage %>">
             <%= section.title || "" %>
-            <img src="assets/aside-graphics/<%= section.headerImage %>.png">
+            <img src="assets/aside-graphics/<%= section.headerImage %>.png" alt="<%= section.headerAlt %>">
           </h2>
         <% section.subsections.forEach((subsection) => { %>
           <% if (subsection.title) { %>
@@ -80,7 +80,7 @@
         </section>
         <div class="constrained interstitial-wrapper">
           <div class="interstitial">
-            <img src="assets/cash-pile.svg" class="cash-pile" data-side="<%= (i % 2) ? 'right' : 'left' %>">
+            <img src="assets/cash-pile.svg" class="cash-pile" data-side="<%= (i % 2) ? 'right' : 'left' %>" alt="pile of cash">
           </div>
         </div>
       <% }); %>
