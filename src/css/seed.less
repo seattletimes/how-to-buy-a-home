@@ -44,12 +44,13 @@ h2 {
   &.path-arrow {
     float: right;
     .bump-right > & { margin: 0; }
-    img {
-      height: 2 * @graphic-width;
-    }
     @media @mobile {
       float: none;
       width: 100%;
+      img {
+        width: 100%;
+        height: initial;
+      }
     }
   }
   &.getting-ready {
