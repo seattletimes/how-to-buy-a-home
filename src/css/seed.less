@@ -14,6 +14,12 @@
   }
 }
 
+header img {
+  @media @mobile {
+    display: none;
+  }
+}
+
 h1 {
   font-size: 60px;
   font-family: @df-sans;
@@ -25,6 +31,7 @@ h1 {
 }
 
 h2 {
+  margin-top: 0;
   font-size: 40px;
   text-align: center;
   font-family: Lato, @df-sans;
@@ -39,6 +46,10 @@ h2 {
     .bump-right > & { margin: 0; }
     img {
       height: 2 * @graphic-width;
+    }
+    @media @mobile {
+      float: none;
+      width: 100%;
     }
   }
   &.getting-ready {
@@ -123,16 +134,14 @@ section {
     }
 
     @media @mobile {
-      .bump-right &, .bump-left & {
-        width: 100%;
-        img {
-          &:hover, &:focus { transform: none; }
-        }
+      img {
+        &:hover, &:focus { transform: none; }
       }
     }
   }
 
   .inline-aside {
+    margin-bottom: @padding-base;
     width: initial;
     img {
       max-width: 80%;

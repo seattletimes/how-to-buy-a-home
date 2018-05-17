@@ -32,14 +32,11 @@
   "acorn": {
     "icon": "gift acorn"
   },
-  "stamp": {
-    "icon": "pre-approval stamp “We think this person can buy a home”"
+  "preapproved": {
+    "section": "getting a loan"
   },
   "all-cash": {
     "icon": "cash/ mortgage buyer"
-  },
-  "underwritten": {
-    "icon": "pre-written check list - Guaranteed you can buy a home Solid gold buyer!"
   },
   "local-lenders": {
     "icon": "photos of lenders"
@@ -111,8 +108,7 @@
   },
   "earnest-money": {
     "section": "Earnest money",
-    "icon": "money hands",
-    "text": "Get ready to hand over tens of thousands in nonrefundable cash."
+    "icon": "money hands"
   },
   "bag": {
     "section": "Rent backs",
