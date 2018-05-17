@@ -120,9 +120,9 @@ content: ~ASIDE~over-asking~ASIDE~
 
 It used to be that brokers would find houses that met your criteria. Now that’s also the buyer’s job, and just about everybody has alerts set up on Zillow, Redfin and other sites so they’re notified the instant a potential home goes up for sale.
 
-The asking price in today’s market is virtually meaningless — about two-thirds now go for more than asking. Brokers typically recommend people search houses listed a tier below their budget limit — so if you’re only willing to spend $600,000, you should be looking at houses that are listed at $550,000 or below.
+The asking price in today’s market is virtually meaningless — <a href="https://www.seattletimes.com/business/real-estate/seattle-housing-market-tops-nation-in-bidding-wars-and-price-gains/">about two-thirds</a> now go for more than asking. Brokers typically recommend people search houses listed a tier below their budget limit — so if you’re only willing to spend $600,000, you should be looking at houses that are listed at $550,000 or below.
 
-The typical house in the city of Seattle goes for about 6 to 7 percent over list price, while across the metro area as a whole it’s closer to 4 percent, according to Redfin. But the spread varies wildly: Some houses are deliberately underpriced to incite a frenzy, while others are set at the minimum amount the seller is willing to accept. Your broker and a quick online review of similar homes recently sold in the area will help you avoid what are essentially mirage houses: Ones that create false hope by setting a list price within your budget, but are actually a waste of time and money to look into because they are clearly underpriced.
+The typical house in the city of Seattle goes for about 6 to 7 percent over list price, while across the metro area as a whole it’s closer to 4 percent, <a href="https://www.redfin.com/blog/data-center">according to Redfin</a>. But the spread varies wildly: Some houses are deliberately underpriced to incite a frenzy, while others are set at the minimum amount the seller is willing to accept. Your broker and a quick online review of similar homes recently sold in the area will help you avoid what are essentially mirage houses: Ones that create false hope by setting a list price within your budget, but are actually a waste of time and money to look into because they are clearly underpriced.
 
 ~ASIDE~mirage~ASIDE~
 
@@ -155,7 +155,7 @@ Most people start out with a long list of must-haves and get slowly beaten down 
 
 <p><img src="assets/commute-graph.jpg" alt="Bar chart showing commute time and median home price of various Seattle area neighborhoods"></p>
 
-The result is added competition in more affordable markets from Everett to Tacoma. Fast-growing Pierce and Snohomish counties have essentially turned into the entry-level home markets for Seattle and the Eastside, where it’s just about impossible to find anything under half a million dollars.
+The result is added competition in more affordable markets from Everett to Tacoma. <a href="https://www.seattletimes.com/seattle-news/data/new-residents-pour-in-pierce-snohomish-counties-top-the-nation/">Fast-growing</a> Pierce and Snohomish counties have essentially turned into the entry-level home markets for Seattle and the Eastside, where it’s just about impossible to find anything under half a million dollars.
 
 ~ASIDE~edge-map~ASIDE~
 
@@ -191,7 +191,7 @@ title: Homes that need work
 
 content: ~ASIDE~brush~ASIDE~
 
-There are so many developers and wannabe contractors who watched a few hours of HGTV out there now that you can’t find any great deals on true fixer-uppers: Even complete teardowns are going for a half-million bucks.
+There are so many developers and wannabe contractors who watched a few hours of HGTV out there now that you can’t find any great deals on true fixer-uppers: <a href="https://www.seattletimes.com/business/this-mold-house-decaying-home-too-dangerous-to-enter-sparks-insane-bidding/">Even complete teardowns</a> are going for a half-million bucks.
 
 But you can set yourself apart by being less picky. Morgan Avis initially tried to sell his Queen Anne condo without doing any staging or fixing up basic imperfections. He was stunned to see home shoppers come by and complain about things like a flat-screen TV bracket he left on the wall — one person even whined about a cracked outlet faceplate, something that could be replaced with a couple of bucks and two screws.
 
@@ -204,7 +204,7 @@ title: Duplicate houses
 
 content: ~ASIDE~duplicate~ASIDE~
 
-The inventory of homes for sale is at a record low; historically, King County has had one home for sale for every 230 residents; now, it has 1 for every 1,060 people.
+The inventory of homes for sale is at a record low; historically, King County has had one home for sale for every 230 residents; now, it has 1 <a href="https://www.seattletimes.com/business/real-estate/why-are-seattle-area-home-prices-so-high/">for every 1,060 people</a>.
 
 But sometimes you might get lucky: Similar homes might go up for sale at the same time in one neighborhood. Often, homebuyers will flock to the better of the two homes; meanwhile, you can quietly turn your attention to the other home that got passed over in the frenzy. You might be left as the only one bidding.
 :end
@@ -219,7 +219,7 @@ content: Here, we get to the most frenzied part of the homebuying process today.
 
 ~ASIDE~alert-protections~ASIDE~
 
-Historically, there was one big decision you had to make when putting in an offer on a home: how much you’re willing to pay. In today’s competitive market — where nine in 10 homes in Seattle provoke bidding wars — buyers must also add sweeteners that add tremendous risk and sometimes higher costs to their bid. Each one is relatively standard now in competitive markets, and becoming more common in outlying areas.
+Historically, there was one big decision you had to make when putting in an offer on a home: how much you’re willing to pay. In today’s competitive market — where <a href="https://www.seattletimes.com/business/real-estate/seattle-housing-market-tops-nation-in-bidding-wars-and-price-gains/">nine in 10 homes</a> in Seattle provoke bidding wars — buyers must also add sweeteners that add tremendous risk and sometimes higher costs to their bid. Each one is relatively standard now in competitive markets, and becoming more common in outlying areas.
 
 ~ASIDE~appraisal-contingency~ASIDE~
 
@@ -286,7 +286,7 @@ There is a typical process that buyers will go through: They will bid somewhat c
 
 “It’s almost a psychological defeat that causes them to become desperate, quite frankly, and if they have the cash, they will often throw more cash at a home than the technical value itself might support,” said John Manning, a RE/MAX broker in Ballard.
 
-Overall, about 60 percent of homes across the region sell for more than the list price, although a lot of the “other 40 percent” are luxury homes going for well over $1 million. (A hugely disproportionate share — about 40 percent of homes on the market here today — are luxury homes, because those take much longer to sell.)
+Overall, about 60 percent of homes across the region sell for more than the list price, although a lot of the “other 40 percent” are luxury homes going for well over $1 million. (A hugely disproportionate share — <a href="http://zillow.mediaroom.com/2018-04-26-Inventory-at-Historic-Lows-Majority-of-Homes-for-Sale-are-at-the-High-End">about 40 percent</a> of homes on the market here today — are luxury homes, because those take much longer to sell.)
 
 On occasion, people will “win” houses by offering a ridiculous amount of cash before the offer deadline to take it off the market right away. But in most cases, sellers will wait for the offer deadline and then sit down with their agent to weigh the various offers.
 
