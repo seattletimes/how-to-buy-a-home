@@ -35,6 +35,8 @@ h2 {
   }
 
   &.path-arrow {
+    float: right;
+    .bump-right > & { margin: 0; }
     img {
       height: 2 * @graphic-width;
     }
@@ -99,9 +101,8 @@ section {
   }
 
   aside {
-    clear: both;
     position: relative;
-    margin: 8px;
+    margin-bottom: 8px;
     width: @graphic-width;
     font-family: @df-sans;
     img {
@@ -132,7 +133,6 @@ section {
   }
 
   .inline-aside {
-    clear: none;
     width: initial;
     img {
       max-width: 80%;
@@ -173,15 +173,14 @@ section {
 }
 
 .interstitial {
+  // width: 300px;
   clear: both;
-  display: block;
   margin: @base-padding auto;
   height: 2 * @base-padding;
   background:
       linear-gradient(to right, white, transparent 50px),
       linear-gradient(to left, white, transparent 50px),
       url(assets/hPath.svg) repeat-x;
-  content: "";
   position: relative;
 
   @media @mobile {
@@ -193,33 +192,7 @@ section {
   position: absolute;
   bottom: -2 * @base-padding;
   width: 100px;
-
-  &[data-side="left"] {
-     left: 0;
-     margin-left: -2 * @base-padding;
-  }
-  &[data-side="right"] {
-    right: 0;
-    margin-right: -2 * @base-padding;
-  }
-}
-
-.cornerstone {
-  position: absolute;
-  bottom: 0;
-  width: 2 * @base-padding;
-  height: 2 * @base-padding;
-  background: bleu;
-      // linear-gradient(to right, transparent, blue),
-      // linear-gradient(to bottom, transparent, white 50%);
-  &.left-cornerstone {
-    left: 0;
-    margin-left: @graphic-width / 2;
-  }
-  &.right-cornerstone {
-    right: 0;
-    margin-right: @graphic-width / 2;
-  }
+  left: 0;
 }
 
 .stopwatch {

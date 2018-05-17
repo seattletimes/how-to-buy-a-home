@@ -1,5 +1,7 @@
 require("./lib/ads");
 // var track = require("./lib/tracking");
+var paywall = require("./lib/paywall");
+setTimeout(() => paywall(10841102), 5000);
 
 var $ = require("./lib/qsa");
 var debounce = require("./lib/debounce");
@@ -66,8 +68,9 @@ var onScroll = debounce(function() {
 
     //  (width of horizontal road) - (padding left and right) - (width of cash pile)
     // e.g. at 0, cash pile is placed in one corner; at horizontalMax it's placed in the other
-    var horizontalMax = cash.parentNode.getBoundingClientRect().width; // TK fix up
-    cash.style[cash.dataset.side] = `${proportionScrolled * horizontalMax}px`;
+    var side = cash.getAttribute("data-side");
+    if (side == "right") proportionScrolled = 1 - proportionScrolled;
+    cash.style.left = `${proportionScrolled * 100}%`;
   });
 }, 15);
 

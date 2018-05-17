@@ -15,11 +15,11 @@ What does it really take to buy a home in the Seattle area? There are the skyro
 
 But nowadays, to compete in this feverish market, buyers have to deal with so much more: Pay for damage the seller doesn’t disclose. Decide whether to buy a house just a couple days after it hits the market. Have a six-figure cash nest egg saved up for a down payment and nonrefundable earnest money.
 
-~AD~
+~ASIDE~full-time-job~ASIDE~
 
 Will you let the old owners continue living in your new house for months after you buy it? Can you compete with a pool of buyers where 1 in 4 people are paying with all cash? Are you ready for heartbreak if you get outbid on your dream home even when stretching to make your highest possible offer?
 
-~ASIDE~full-time-job~ASIDE~
+~AD~
 
 Our reporting found the average buyer will tour dozens of houses, lose to higher bids about three to five times, and pursue a house for six months to a year before finally getting a home. Many buyers likened the process to a full-time job.
 
@@ -28,8 +28,6 @@ Our reporting found the average buyer will tour dozens of houses, lose to higher
 “It was just all-consuming,” said Michael McDermott, who bought a house with his wife in North Seattle last year. “You have to always be on guard and always be ready. It’s such a rabid market that it can get out of control really fast.”
 
 We talked to dozens of people who know the market best — buyers, sellers, brokers and lenders from around the Puget Sound region — to put together a complete homebuying survival guide.
-
-~ASIDE~leaves~ASIDE~
 :end
 []
 
@@ -45,7 +43,7 @@ Technically, there are programs that allow you to put as little as 3 percent dow
 
 Here is the cold, hard math: The median down payment on all homes (single-family and condos) in King County just topped $100,000 for the first time, up from about $50,000 just five years ago, according to mortgage tracking company Attom Data Solutions.
 
-~ASIDE~median-down-graph~ASIDE~
+<p><img src="assets/down-payment-graph.jpg" alt="TK"></p>
 
 That’s an increase of $10,000 a year just for the down payment. Anyone who added less than that to their home-saving piggy bank in the last year is actually farther away from being able to afford the median-priced home than they were when they started saving.
 
@@ -152,6 +150,8 @@ title: Edges are no longer a bargain
 content:~ASIDE~must-haves~ASIDE~
 
 Most people start out with a long list of must-haves and get slowly beaten down into reality. One of two things then happens: You look for a smaller and cheaper house, or search further out from your preferred neighborhoods. Brokers say most people wind up taking the longer commute in exchange for the house they want.
+
+<p><img src="assets/commute-graph.jpg" alt="TK"></p>
 
 The result is added competition in more affordable markets from Everett to Tacoma. Fast-growing Pierce and Snohomish counties have essentially turned into the entry-level home markets for Seattle and the Eastside, where it’s just about impossible to find anything under half a million dollars.
 
