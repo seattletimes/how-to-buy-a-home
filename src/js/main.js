@@ -28,7 +28,11 @@ var formatTime = function(secs) {
     secs %= 60;
   }
   parts.push(`${secs} second${plural(secs)}`);
-  return parts.join(" and ");
+
+  if (parts.length <= 2) return parts.join(" and ");
+  var lastPart = parts.pop();
+  var priorParts = parts.join(", ");
+  return `${priorParts} and ${lastPart}`;
 };
 
 var formatMoney = function(cents) {
