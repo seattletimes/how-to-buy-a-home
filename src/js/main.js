@@ -1,5 +1,5 @@
 require("./lib/ads");
-// var track = require("./lib/tracking");
+require("./lib/comments");
 var paywall = require("./lib/paywall");
 setTimeout(() => paywall(10841102), 5000);
 
